@@ -904,6 +904,8 @@ img {
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
+  height: 50px;
+  width: 50px;
   display: flex;
   align-items: center;
   margin: 0;
@@ -913,11 +915,7 @@ img {
   border: none;
   border-radius: 50%;
   outline: none;
-}
-
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
+  justify-content: flex-end;
 }
 
 /*Menu Container */
@@ -1065,5 +1063,16 @@ img {
   .menu-toggle {
     display: flex;
     margin-left: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .values-list,
+  .images-list,
+  .socials-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
