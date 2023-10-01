@@ -21,6 +21,23 @@
           <a href="./index.html" class="logo link toplogo"
             >Web<span class="studio">Studio</span></a
           >
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu">
+            <svg
+              width="32"
+              height="22"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </button>
+
           <ul class="list menu">
             <li>
               <a href="./index.html" class="nav link nav-link active">Studio</a>
@@ -120,6 +137,7 @@
             <li class="images-one">
               <img
                 src="./images/img1.jpg"
+                srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
                 alt="old imac computer displaying statistics"
                 width="360"
                 height="300" />
@@ -127,6 +145,7 @@
             <li class="images-one">
               <img
                 src="./images/img2.jpg"
+                srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
                 alt="layers of phone with communicator"
                 width="360"
                 height="300" />
@@ -134,6 +153,7 @@
             <li class="images-one">
               <img
                 src="./images/img3.jpg"
+                srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
                 alt="easy connection between phone and computer"
                 width="360"
                 height="300" />
@@ -148,6 +168,7 @@
             <li class="people-list">
               <img
                 src="./images/img4.jpg"
+                srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x"
                 alt="professionl looking adult with beard wearing blue shirt"
                 width="264"
                 height="260" />
@@ -189,6 +210,7 @@
             <li class="people-list">
               <img
                 src="./images/img7.jpg"
+                srcset="./images/img7.jpg 1x, ./images/img7@2x.jpg 2x"
                 alt="young adult wearing blue shirt and smiling"
                 width="264"
                 height="260" />
@@ -230,6 +252,7 @@
             <li class="people-list">
               <img
                 src="./images/img6.jpg"
+                srcset="./images/img6.jpg 1x, ./images/img6@2x.jpg 2x"
                 alt="young attractive women with long dark hair wearing pink sweater"
                 width="264"
                 height="260" />
@@ -271,6 +294,7 @@
             <li class="people-list">
               <img
                 src="./images/img5.jpg"
+                srcset="./images/img5.jpg 1x, ./images/img5@2x.jpg 2x"
                 alt="young smiling adult waering plain t-shirt"
                 width="264"
                 height="260" />
@@ -507,6 +531,69 @@
       </div>
     </div>
 
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button
+        type="button"
+        class="js-close-menu js-close-button"
+        data-modal-close>
+        <svg class="x-button" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="link">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+      <div class="toggle-lists">
+        <ul class="mobile-menu-contacts">
+          <li>
+            <a href="tel:+110001111111" class="contact link toggle-phone"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="contact link toggle-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list list icons-toggle">
+          <li class="footer-list-item">
+            <a href="" class="footer-social-media">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="" class="footer-social-media">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="" class="footer-social-media">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="" class="footer-social-media">
+              <svg class="footer-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <script src="./modal.js"></script>
+    <script src="./mobile-menu.js"></script>
   </body>
 </html>
