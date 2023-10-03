@@ -1408,22 +1408,30 @@ img {
   }
 }
 
+/*MOBILE MEDIA */
+
 @media (max-width: 768px) {
-}
-
-/* .section-four {
+  .portfolio-section-media {
     display: flex;
     justify-content: center;
-  }
-  .section-four-container {
-    padding: 0;
-  }
-
-  .section-four .list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 768px;
     align-content: center;
-  } */
+  }
+  .container-portfolio {
+    width: auto;
+  }
+
+  .portfolio-list-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 400px;
+    align-content: center;
+  }
+
+  .portfolio-section-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+}
