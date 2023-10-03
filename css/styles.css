@@ -961,6 +961,8 @@ img {
 }
 
 .toggle-lists {
+  display: flex;
+  flex-direction: column;
   gap: 40px;
 }
 
@@ -1125,6 +1127,11 @@ img {
     gap: 72px 24px;
     width: 768px;
   }
+
+  .section-three .container {
+    display: none;
+  }
+
   .section-four {
     display: flex;
     justify-content: center;
@@ -1148,9 +1155,6 @@ img {
     gap: 8px;
   }
 
-  .section-three .container {
-    display: none;
-  }
   .values-header {
     font-family: Roboto;
     font-size: 36px;
@@ -1298,7 +1302,7 @@ img {
 
   .customers-container {
     display: flex;
-    width: 428px;
+    width: 400px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
