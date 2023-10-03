@@ -1424,7 +1424,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 400px;
+    width: 350px;
     align-content: center;
   }
 
@@ -1432,6 +1432,6 @@ img {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 400px;
+    width: 360px;
   }
 }
