@@ -1110,12 +1110,28 @@ img {
     margin: 0 auto;
     padding: 0 15px;
   }
+
+  .container-section-two {
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+  }
   .section-two .values-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 72px 24px;
+    width: 768px;
+  }
+
+  .section-four-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .section-four .list {
