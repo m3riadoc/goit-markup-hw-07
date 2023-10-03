@@ -1125,13 +1125,12 @@ img {
     gap: 72px 24px;
     width: 768px;
   }
-
-  .section-four-container {
+  .section-four {
     display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+  }
+  .section-four-container {
+    padding: 0;
   }
 
   .section-four .list {
@@ -1139,8 +1138,8 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    align-content: space-between;
+    width: 768px;
+    align-content: center;
   }
   .value {
     display: flex;
@@ -1352,7 +1351,7 @@ img {
   }
 
   .footer-newsletter-input {
-    width: 398px;
+    width: 80vw;
     height: 40px;
   }
   .subscribe {
