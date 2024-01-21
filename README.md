@@ -20,8 +20,8 @@ This website was created using the following technologies:
 
 
 
-## Contributing
-This website is not intended for external contributions, as it is a technical interview project. 
+## About
+This project marks my initial foray into web development. It involves the utilization of HTML and CSS to construct a basic website. Furthermore, I've incorporated JavaScript to implement a mobile-friendly sidebar, enhancing the user's navigation experience.
 
 ## Author
 - Bartosz Kozielski 
